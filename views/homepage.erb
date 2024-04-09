@@ -1,0 +1,10 @@
+<div>
+  <h1> Currency Pairs </h1>
+</div>
+
+<div>
+  <% @abbreviations.each do |one_currency| %>
+
+      <li><a href = "/<%= one_currency %>"> Convert 1 <%= one_currency %> to... </a></li>
+  <% end %>
+</div>
